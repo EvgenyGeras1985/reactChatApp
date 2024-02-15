@@ -1,4 +1,4 @@
-import './assets/index.scss.css';
+import './assets/index.scss';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './components/App/App';
@@ -16,7 +16,7 @@ root.render(
           <Routes>
               <Route path="/" element={<App />} />
               <Route path="/login" element={<Login />} />
-              <Route path="test" element={<Test />} />
+              <Route path="/test" element={<Test />} />
               <Route path="*" element={<Error />} />
           </Routes>
       </BrowserRouter>

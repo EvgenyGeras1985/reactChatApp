@@ -1,12 +1,17 @@
 import React, {Fragment} from "react";
-import Main from "../MainPage/MainPage";
+import "./app.scss";
+import Navigation from "../Navigation/NavComponent";
 
 
 class App extends React.Component{
   render(){
     return (
         <Fragment>
-          <Main />
+            <article className="description">
+                <div>Вас приветствует</div>
+                <div>React</div>
+                <div>Chat</div>
+            </article>
         </Fragment>
     )
   }
