@@ -1,11 +1,17 @@
-import React, {Fragment} from "react";
+import React from "react";
+import "./login.module.scss"
 
 export default class Login extends React.Component{
     render(){
         return(
-            <Fragment>
-                <h1>Login Page</h1>
-            </Fragment>
+            <>
+                <form>
+                    <input type="text" placeholder="Введите Login"/>
+                    <input type="password" placeholder="Введите pass"/>
+                    <button>Авторизоваться</button>
+                    <button>Зарегестрироваться</button>
+                </form>
+            </>
         )
     }
 }

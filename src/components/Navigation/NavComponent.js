@@ -11,7 +11,7 @@ class Navigation extends React.Component{
                 <nav className="header">
                     <h2>React Chat</h2>
                     <Link className="lnk-main" to="/">Главная</Link>
-                    <Link className="lnk" to="/auth">Войти</Link>
+                    <Link className="lnk" to="/login">Войти</Link>
                 </nav>
             </Fragment>
         )
