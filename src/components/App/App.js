@@ -1,19 +1,13 @@
-import React from "react";
-import '../../assets/App.scss';
-import "./app.module.scss.css";
-import Navigation from "../Navigation/NavComponent";
+import React, {Fragment} from "react";
+import Main from "../MainPage/MainPage";
+
 
 class App extends React.Component{
   render(){
     return (
-        <>
-          <Navigation />
-          <article className="description">
-            <div>Вас приветствует</div>
-            <div>React</div>
-            <div>Chat</div>
-          </article>
-        </>
+        <Fragment>
+          <Main />
+        </Fragment>
     )
   }
 }
