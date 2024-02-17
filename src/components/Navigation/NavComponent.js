@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 class Navigation extends React.Component{
     constructor(props) {
         super(props);
-        this.state = { isLogin: true }
+        this.state = { isLogin: false }
     }
 
 
