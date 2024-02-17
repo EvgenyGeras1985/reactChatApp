@@ -9,7 +9,6 @@ const Reg = () => {
     console.log(isLogin);
 
     return (
-        <>
             <div className="logpage">
                 <h1>Регистрация</h1>
                  <form>
@@ -25,7 +24,6 @@ const Reg = () => {
                      <NavLink to="/login">Есть Аккаунт? Войти</NavLink>
                  </form>
             </div>
-        </>
     )
 }
 

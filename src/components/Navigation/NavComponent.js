@@ -1,9 +1,14 @@
-import React, {Fragment} from "react";
 import "./nav.module.scss.css";
+import React, {Fragment} from "react";
 import {Link} from "react-router-dom";
 
 
 class Navigation extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = { isLogin: true }
+    }
+
 
     render(){
         return (
@@ -11,7 +16,11 @@ class Navigation extends React.Component{
                 <nav className="header">
                     <h2>React Chat</h2>
                     <Link className="lnk-main" to="/">Главная</Link>
-                    <Link className="lnk" to="/login">Войти</Link>
+                    {
+                        this.state.isLogin
+                        ? <Link className="lnk" to="/login">Выйти</Link>
+                        : <Link className="lnk" to="/login">Войти</Link>
+                    }
                 </nav>
             </Fragment>
         )
