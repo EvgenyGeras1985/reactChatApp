@@ -5,6 +5,7 @@ import Layout from "../components/Layout/Layout.js";
 import Test from "../components/TastPage/Test";
 import LoginPage from "../components/LoginPage/LoginPage";
 import RegPage from "../components/RegPage/RegPage";
+import Profile from "../components/Profile/ProfilePage";
 
 export const router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
             {
                 path: 'reg',
                 element: <RegPage />
+            },
+            {
+                path: 'profile',
+                element: <Profile />
             },
             {
                 path: 'test',

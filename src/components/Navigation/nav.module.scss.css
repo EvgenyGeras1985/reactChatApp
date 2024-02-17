@@ -49,3 +49,21 @@
     }
 }
 
+.lnk-profile{
+    position: absolute;
+    top: 40px;
+    right: 380px;
+    color: aliceblue;
+    background: #6E6ECA;
+    border-radius: 10px;
+    padding: 10px 40px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        background: aliceblue;
+        color: #00011D;
+    }
+}
+

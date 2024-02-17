@@ -1,5 +1,6 @@
-import React, {Fragment} from "react";
 import "./main.module.scss";
+import React, {Fragment} from "react";
+
 
 export default class Main extends React.Component{
     render(){
