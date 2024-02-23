@@ -1,0 +1,33 @@
+.description{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+  color: aliceblue;
+
+  div:nth-child(1){
+    padding-top: 30px;
+    font-size: 35px;
+  }
+
+  div:nth-child(2){
+    margin-left: 100px;
+    font-size: 75px;
+    transform: rotate(-10deg);
+  }
+
+  div:nth-child(3){
+    margin-left: 300px;
+    font-size: 100px;
+    transform: rotate(10deg);
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+
+    &:active{
+      color: #7cfa00;
+      transform: rotate(370deg);
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    background: #F4C090;
+
+    h2{
+        position: absolute;
+        top: 20px;
+        left: 150px;
+    }
+}
+
+.lnk{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    color: aliceblue;
+    background: #6E6ECA;
+    border-radius: 10px;
+    padding: 10px 40px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        background: aliceblue;
+        color: #00011D;
+    }
+}
+
+.lnk-main{
+    position: absolute;
+    top: 40px;
+    right: 240px;
+    color: aliceblue;
+    background: #6E6ECA;
+    border-radius: 10px;
+    padding: 10px 40px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        background: aliceblue;
+        color: #00011D;
+    }
+}
+
+.lnk-profile{
+    position: absolute;
+    top: 40px;
+    right: 380px;
+    color: aliceblue;
+    background: #6E6ECA;
+    border-radius: 10px;
+    padding: 10px 40px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover{
+        background: aliceblue;
+        color: #00011D;
+    }
+}
+

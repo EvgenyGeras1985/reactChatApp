@@ -1,0 +1,16 @@
+.btn-enter{
+    position: absolute;
+    top: 40px;
+    right: 100px;
+    color: aliceblue;
+    background: #6E6ECA;
+    border-radius: 10px;
+    padding: 10px 40px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+
+    &:hover{
+        color: #00011D;
+        background: aliceblue;
+    }
+}
